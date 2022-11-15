@@ -4,22 +4,22 @@ AC   chromosome:TAIR10:3:20119140:20121314:1
 XX
 SV   chromosome:TAIR10:3:20119140:20121314:1
 XX
-DT   15-JUL-2020
+DT   15-NOV-2022
 XX
 DE   Arabidopsis thaliana chromosome 3 TAIR10 partial sequence
-DE   20119140..20121314 annotated by The Arabidopsis Information Resource
+DE   20119140..20121314 annotated by Araport11
 XX
 KW   .
 XX
 OS   Arabidopsis thaliana (thale-cress)
-OC   Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
-OC   Spermatophyta; Magnoliophyta; eudicotyledons; core eudicots; rosids;
-OC   eurosids II; Brassicales; Brassicaceae; Arabidopsis.
+OC   Eukaryota; Viridiplantae; Streptophyta; Streptophytina; Embryophyta;
+OC   Tracheophyta; Euphyllophyta; Spermatophyta; Magnoliopsida; Mesangiospermae;
+OC   eudicotyledons; Gunneridae; Pentapetalae; rosids; malvids; Brassicales;
+OC   Brassicaceae; Camelineae.
 XX
 CC   This sequence displays annotation from Ensembl Genomes, based on underlying
-CC   annotation from The Arabidopsis Information Resource (
-CC   https://www.araport.org/ ). See http://www.ensemblgenomes.org for more
-CC   information.
+CC   annotation from Araport11 ( https://araport.org ). See
+CC   http://www.ensemblgenomes.org for more information.
 XX
 CC   All feature locations are relative to the first (5') base of the sequence
 CC   in this file.  The sequence presented is always the forward strand of the
@@ -38,8 +38,9 @@ FT                   /db_xref="taxon:3702"
 FT   gene            complement(1..2175)
 FT                   /gene=AT3G54340
 FT                   /locus_tag="AP3"
-FT                   /note="Floral homeotic protein APETALA 3
-FT                   [Source:UniProtKB/Swiss-Prot;Acc:P35632]"
+FT                   /note="K-box region and MADS-box transcription factor
+FT                   family protein [Source:NCBI gene (formerly
+FT                   Entrezgene);Acc:824601]"
 FT   mRNA            join(complement(1761..2175),complement(1593..1659),
 FT                   complement(1448..1509),complement(1264..1363),
 FT                   complement(1050..1091),complement(729..773),
@@ -53,19 +54,43 @@ FT                   complement(289..483))
 FT                   /gene="AT3G54340"
 FT                   /protein_id="AT3G54340.1"
 FT                   /note="transcript_id=AT3G54340.1"
+FT                   /db_xref="EntrezGene_trans_name:AP3-201"
 FT                   /db_xref="Uniprot/SWISSPROT:P35632"
-FT                   /db_xref="RefSeq_peptide:NP_191002.1"
-FT                   /db_xref="RefSeq_dna:NM_115294.6"
+FT                   /db_xref="RefSeq_mRNA:NM_115294"
 FT                   /db_xref="Uniprot/SPTREMBL:A0A178VHZ2"
 FT                   /db_xref="TAIR_LOCUS_MODEL:AT3G54340.1"
+FT                   /db_xref="BioGRID:9917"
+FT                   /db_xref="EMBL:AF056541"
+FT                   /db_xref="EMBL:AF115798"
+FT                   /db_xref="EMBL:AF115799"
+FT                   /db_xref="EMBL:AF115800"
+FT                   /db_xref="EMBL:AF115801"
+FT                   /db_xref="EMBL:AF115802"
+FT                   /db_xref="EMBL:AF115803"
+FT                   /db_xref="EMBL:AF115804"
+FT                   /db_xref="EMBL:AF115805"
+FT                   /db_xref="EMBL:AF115806"
+FT                   /db_xref="EMBL:AF115807"
+FT                   /db_xref="EMBL:AF115808"
+FT                   /db_xref="EMBL:AF115809"
+FT                   /db_xref="EMBL:AF115810"
+FT                   /db_xref="EMBL:AF115811"
+FT                   /db_xref="EMBL:AF115812"
+FT                   /db_xref="EMBL:AF115813"
+FT                   /db_xref="EMBL:AF115814"
+FT                   /db_xref="EMBL:AL132971"
 FT                   /db_xref="EMBL:AY070397"
 FT                   /db_xref="EMBL:AY087369"
 FT                   /db_xref="EMBL:AY142590"
+FT                   /db_xref="EMBL:CACRSJ010000106"
+FT                   /db_xref="EMBL:CACSHJ010000089"
+FT                   /db_xref="EMBL:CP002686"
+FT                   /db_xref="EMBL:D21125"
+FT                   /db_xref="EMBL:LUHQ01000003"
 FT                   /db_xref="EMBL:M86357"
-FT                   /db_xref="GO:0000976"
 FT                   /db_xref="GO:0000977"
 FT                   /db_xref="GO:0000977"
-FT                   /db_xref="GO:0000977"
+FT                   /db_xref="GO:0000978"
 FT                   /db_xref="GO:0000981"
 FT                   /db_xref="GO:0003677"
 FT                   /db_xref="GO:0003677"
@@ -77,46 +102,44 @@ FT                   /db_xref="GO:0005634"
 FT                   /db_xref="GO:0005634"
 FT                   /db_xref="GO:0005634"
 FT                   /db_xref="GO:0005634"
-FT                   /db_xref="GO:0005634"
-FT                   /db_xref="GO:0006351"
 FT                   /db_xref="GO:0006355"
 FT                   /db_xref="GO:0006355"
-FT                   /db_xref="GO:0007275"
-FT                   /db_xref="GO:0007275"
-FT                   /db_xref="GO:0008134"
+FT                   /db_xref="GO:0006357"
 FT                   /db_xref="GO:0009908"
 FT                   /db_xref="GO:0010093"
-FT                   /db_xref="GO:0010093"
 FT                   /db_xref="GO:0030154"
-FT                   /db_xref="GO:0030154"
-FT                   /db_xref="GO:0043565"
-FT                   /db_xref="GO:0044212"
 FT                   /db_xref="GO:0045944"
 FT                   /db_xref="GO:0045944"
 FT                   /db_xref="GO:0046983"
 FT                   /db_xref="GO:0046983"
-FT                   /db_xref="protein_id:AAD41557.1"
-FT                   /db_xref="protein_id:AAD51887.1"
-FT                   /db_xref="protein_id:AAD51888.1"
-FT                   /db_xref="protein_id:AAD51889.1"
-FT                   /db_xref="protein_id:AAD51890.1"
-FT                   /db_xref="protein_id:AAD51891.1"
-FT                   /db_xref="protein_id:AAD51892.1"
-FT                   /db_xref="protein_id:AAD51893.1"
-FT                   /db_xref="protein_id:AAD51894.1"
-FT                   /db_xref="protein_id:AAD51895.1"
-FT                   /db_xref="protein_id:AAD51896.1"
-FT                   /db_xref="protein_id:AAD51897.1"
-FT                   /db_xref="protein_id:AAD51898.1"
-FT                   /db_xref="protein_id:AAD51899.1"
-FT                   /db_xref="protein_id:AAD51900.1"
-FT                   /db_xref="protein_id:AAD51901.1"
-FT                   /db_xref="protein_id:AAD51902.1"
-FT                   /db_xref="protein_id:AAD51903.1"
-FT                   /db_xref="protein_id:AEE79216.1"
-FT                   /db_xref="protein_id:BAA04665.1"
-FT                   /db_xref="protein_id:CAB81799.1"
-FT                   /db_xref="protein_id:OAP05456.1"
+FT                   /db_xref="protein_id:AAA32740"
+FT                   /db_xref="protein_id:AAD41557"
+FT                   /db_xref="protein_id:AAD51887"
+FT                   /db_xref="protein_id:AAD51888"
+FT                   /db_xref="protein_id:AAD51889"
+FT                   /db_xref="protein_id:AAD51890"
+FT                   /db_xref="protein_id:AAD51891"
+FT                   /db_xref="protein_id:AAD51892"
+FT                   /db_xref="protein_id:AAD51893"
+FT                   /db_xref="protein_id:AAD51894"
+FT                   /db_xref="protein_id:AAD51895"
+FT                   /db_xref="protein_id:AAD51896"
+FT                   /db_xref="protein_id:AAD51897"
+FT                   /db_xref="protein_id:AAD51898"
+FT                   /db_xref="protein_id:AAD51899"
+FT                   /db_xref="protein_id:AAD51900"
+FT                   /db_xref="protein_id:AAD51901"
+FT                   /db_xref="protein_id:AAD51902"
+FT                   /db_xref="protein_id:AAD51903"
+FT                   /db_xref="protein_id:AAL49893"
+FT                   /db_xref="protein_id:AAM64919"
+FT                   /db_xref="protein_id:AAN13159"
+FT                   /db_xref="protein_id:AEE79216"
+FT                   /db_xref="protein_id:BAA04665"
+FT                   /db_xref="protein_id:CAA0386332"
+FT                   /db_xref="protein_id:CAB81799"
+FT                   /db_xref="protein_id:OAP05456"
+FT                   /db_xref="protein_id:VYS60370"
 FT                   /db_xref="TAIR_TRANSLATION:AT3G54340"
 FT                   /db_xref="PO:PO:0000037"
 FT                   /db_xref="PO:PO:0000229"
@@ -137,27 +160,26 @@ FT                   /db_xref="PO:PO:0009046"
 FT                   /db_xref="PO:PO:0009052"
 FT                   /db_xref="PO:PO:0025022"
 FT                   /db_xref="PO:PO:0025281"
-FT                   /db_xref="STRING:3702.AT3G54340.1"
 FT                   /db_xref="UniParc:UPI0000001796"
 FT                   /translation="MARGKIQIKRIENQTNRQVTYSKRRNGLFKKAHELTVLCDARVSI
 FT                   IMFSSSNKLHEYISPNTTTKEIVDLYQTISDVDVWATQYERMQETKRKLLETNRNLRTQ
 FT                   IKQRLGECLDELDIQELRRLEDEMENTFKLVRERKFKSLGNQIETTKKKNKSQQDIQKN
 FT                   LIHELELRAEDPHYGLVDNGGDYDSVLGYQIEGSRAYALRFHQNHHHYYPNHGLHAPSA
 FT                   SDIITFHLLE"
-FT   exon            complement(1593..1659)
-FT                   /note="exon_id=AT3G54340.1.exon2"
-FT   exon            complement(1761..2175)
-FT                   /note="exon_id=AT3G54340.1.exon1"
-FT   exon            complement(729..773)
-FT                   /note="exon_id=AT3G54340.1.exon6"
 FT   exon            complement(1..483)
 FT                   /note="exon_id=AT3G54340.1.exon7"
-FT   exon            complement(1264..1363)
-FT                   /note="exon_id=AT3G54340.1.exon4"
-FT   exon            complement(1448..1509)
-FT                   /note="exon_id=AT3G54340.1.exon3"
 FT   exon            complement(1050..1091)
 FT                   /note="exon_id=AT3G54340.1.exon5"
+FT   exon            complement(729..773)
+FT                   /note="exon_id=AT3G54340.1.exon6"
+FT   exon            complement(1593..1659)
+FT                   /note="exon_id=AT3G54340.1.exon2"
+FT   exon            complement(1264..1363)
+FT                   /note="exon_id=AT3G54340.1.exon4"
+FT   exon            complement(1761..2175)
+FT                   /note="exon_id=AT3G54340.1.exon1"
+FT   exon            complement(1448..1509)
+FT                   /note="exon_id=AT3G54340.1.exon3"
 FT   mRNA            join(complement(AL132971.2:19369..19757),
 FT                   complement(AL132971.2:19047..19281),
 FT                   complement(AL132971.2:18782..18927),
@@ -558,6 +580,15 @@ FT                   consensus"
 FT   repeat_region   complement(1558..1591)
 FT                   /note="dust repeat: matches 20120697..20120730(1) of
 FT                   consensus"
+FT   repeat_region   1779..1900
+FT                   /note="RLG_Gmr139_Gm11-1:SoyBaseTE repeat: matches
+FT                   15409..15530(1) of consensus"
+FT   repeat_region   1803..1916
+FT                   /note="AT2TE45640:TAIR10_TE repeat: matches 1209..1322(1)
+FT                   of consensus"
+FT   repeat_region   complement(1917..1936)
+FT                   /note="PHG_TEdenovo-B-R1514-Map5:repetDB.Mar2020 repeat:
+FT                   matches 2298..2431(1) of consensus"
 FT   repeat_region   complement(1979..2063)
 FT                   /note="dust repeat: matches 20121118..20121202(1) of
 FT                   consensus"
